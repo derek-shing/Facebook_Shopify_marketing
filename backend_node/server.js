@@ -41,8 +41,8 @@ function postToConversionAPI(data){
   const CustomData = bizSdk.CustomData;
   const Content = bizSdk.Content;
 
-  const access_token = 'EAANMDOEpbiYBACHaWk3BPYD8eZBtGnBUrltjPU5rqZC9BZBBMsmdPsvHo87d7LVSbZAZCfv64PHCeodQIzzi3ZBZClBTvrcw8nD6w77dQPzuZAOkGZCIRz22RO0DS0Ay5727aAZC5K40ln5nJ2rYtZBrO23UMA9jZCZBNcgCpyOdAsuppbZAeNw7hB6uIi';
-  const pixel_id = '325781001814671';
+  const access_token = '';
+  const pixel_id = '';
   const api = bizSdk.FacebookAdsApi.init(access_token);
 
   let current_timestamp = Math.floor(new Date() / 1000);
